@@ -1,0 +1,703 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>فروشگاه اینترنتی عطر وادکلن</title>
+<link href="atr.css" rel="stylesheet">
+ 
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="font-awesome.min.css">
+  <link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap.min.css">
+  <script src="jquery-1.12.2.js"></script>
+  <script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+  <style>
+.w3-btn{width:150px;}
+  .modal-header, h4, .close {
+      background-color: #5cb85c;
+      color:white !important;
+      text-align: center;
+      font-size: 30px;
+  }
+  .modal-footer {
+      background-color: #f9f9f9;
+  }
+  </style>
+<script> 
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideToggle("fast");
+    });
+});
+$(document).ready(function(){
+    $("#flp").click(function(){
+        $("#panel").slideToggle("fast");
+    });
+});
+$(document).ready(function(){
+    $("#myBtn").click(function(){
+        $("#myModal").modal();
+    });
+});
+$(document).ready(function(){
+    $("#ff").click(function(){
+        $("#mModal").modal();
+    });
+});
+$(document).ready(function(){
+    $("#Ps").click(function(){
+        $("#Pd").modal();
+    });
+    $("#Ps2").click(function(){
+        $("#Pd").modal();
+    });
+    $("#Ps12").click(function(){
+        $("#Pd").modal();
+    });
+    $("#Ps3").click(function(){
+        $("#Pd").modal();
+    });
+    $("#Ps4").click(function(){
+        $("#Pd").modal();
+    });
+    $("#Ps5").click(function(){
+        $("#Pd").modal();
+    });
+    $("#Ps6").click(function(){
+        $("#Pd").modal();
+    });
+    $("#Ps7").click(function(){
+        $("#Pd").modal();
+    });
+    $("#Ps8").click(function(){
+        $("#Pd").modal();
+    });
+    $("#Ps9").click(function(){
+        $("#Pd").modal();
+    });
+    $("#Ps10").click(function(){
+        $("#Pd").modal();
+    });
+    $("#Ps11").click(function(){
+        $("#Pd").modal();
+    });
+});
+</script>
+
+<style> 
+body {
+	color:#FFF;
+	margin: 0;
+	font-family: b yekan;
+	background: url("smiley.gif") no-repeat fixed center;
+	background-image:url(pic/agnir.gif);
+	background-size: cover;
+	-webkit-filter: drop-shadow(30px 30px 10px black); /* Chrome, Safari, Opera */
+	/*filter: drop-shadow(20px 20px 10px black);*/
+	text-align: right;
+}
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+}
+
+#panel {
+    padding: 20px;
+    display: none;
+}
+.font-col{
+	color:#FF0;
+}
+.test {
+    background-color: yellow;
+}
+</style>
+</head>
+<body class="">
+<div class="container">
+  <!-- Trigger the modal with a button -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="Pd" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="background-color:#000">
+          <h4 class="modal-title" style="background-color:#000">سبد خرید</h4>
+        </div>
+        <div  class="modal-body" style="background-color:#727CFE;font-size:20px">
+          <div style=" color:#000"><p>محصول به سبد اضافه گردید</p></div>
+              
+        </div>
+        <div class="modal-footer" style="background-color:#727CFE">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal" style="background-color:#720CFE; border-color:#727CFE; font-size:20px"><span class="glyphicon glyphicon-remove"></span> لغو </button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  </div>
+  
+<div class="container">
+  <!-- Trigger the modal with a button -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="Modal" role="dialog" >
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="background-color:#000">
+          <h4 class="modal-title" style="background-color:#000;">سبد خرید</h4>
+        </div>
+        <div  class="modal-body" style="background-color:#727CFE;font-size:20px">
+          <div id="kk" style=" color:#000"><p>سبد خرید شما خالی است.</p></div>
+              <button id="k" type="submit" class="btn btn-success btn-block" style="background-color:#720CFE; border-color:#727CFE; font-size:19px; display: none">فاکتور خرید</button>
+        </div>
+        <div class="modal-footer" style="background-color:#727CFE">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal" style="background-color:#720CFE; border-color:#727CFE; font-size:20px"><span class="glyphicon glyphicon-remove"></span> لغو </button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  </div>
+  <!-- Trigger the modal with a button -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="Sbt" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="padding:10px 45px; background-color:#000">
+
+          <h4 style=" background-color:#000"><span class="glyphicon glyphicon-log-in"></span> ثبت نام</h4>
+        </div>
+        <div class="modal-body" style="padding:40px 50px; background-color:#727CFE">
+          <form role="form">
+            <div class="form-group">
+              <label for="usrname" style="font-size:20px; color:#000"> نام و نام خانوادگی</label>
+              <input style=" font-size:20PX" type="text" class="form-control" id="usrname" placeholder="">
+            </div>
+            <div class="form-group">
+              <label for="psw" style="font-size:20px; color:#000">پست الکترونیک</label>
+              <input style="font-size:20PX" type="text" class="form-control" id="psw" placeholder="">
+            </div><br>
+              <button type="submit" class="btn btn-success btn-block" style="background-color:#720CFE; border-color:#727CFE; font-size:19px"> ثبت نام</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal" style="background-color:#720CFE; border-color:#727CFE; font-size:20px"><span class="glyphicon glyphicon-remove"></span> لغو </button>
+          <p style="font-size:18px"> <a href="#">قبلا ثبت نام کرده ام</a></p>
+        </div>
+      </div>
+    </div>
+  </div> 
+</div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="padding:10px 45px; background-color:#000">
+          <h4 style=" background-color:#000"><span class="glyphicon glyphicon-lock" style=" background-color:#000"></span> ورود</h4>
+        </div>
+        <div class="modal-body" style="padding:40px 50px; background-color:#727CFE;">
+          <form role="form">
+            <div class="form-group">
+              <label for="usrname" style="font-size:20px"><span class="glyphicon glyphicon-user"></span> نام کاربری</label>
+              <input style=" font-size:20PX" type="text" class="form-control" id="usrname" placeholder="پست الکترونیک">
+            </div>
+            <div class="form-group">
+              <label for="psw" style="font-size:20px"><span class="glyphicon glyphicon-eye-open"></span> کلمه عبور</label>
+              <input style="font-size:20PX" type="text" class="form-control" id="psw" placeholder="رمز عبور">
+            </div>
+            <div class="checkbox">
+              <label style="font-size:20px">مرا به خاطر بسپار
+             <input type="checkbox" value="" checked ></label>
+            </div><br>
+              <button type="submit" class="btn btn-success btn-block" style="background-color:#720CFE; border-color:#727CFE; font-size:19px"><span class="glyphicon glyphicon-off"></span> ورود</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal" style="background-color:#720CFE; border-color:#727CFE; font-size:20px"><span class="glyphicon glyphicon-remove"></span> لغو </button>
+          <p style="font-size:18px">عضو نیستید؟ <a href="#">ثبت نام</a></p>
+          <p style="font-size:18px">یادم رفت <a href="#">کلمه عبور؟</a></p>
+        </div>
+      </div>
+    </div>
+  </div> 
+</div>
+
+      <div class="modal fade" id="mModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="padding:10px 45px; background-color:#000">
+          <h4 style=" background-color:#000">تلفن تماس</h4>
+        </div>
+        <div class="modal-body" style="padding:40px 50px; background-color:#727CFE; font-size:24px; text-align:center">
+        
+        <div class="modal-footer" style="color:#000">
+                  09149588621
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal" style="background-color:#720CFE; border-color:#727CFE; font-size:20px"><span class="glyphicon glyphicon-remove"></span> لغو </button>
+          </div> </div>
+      </div>
+    </div>
+  </div> 
+</div>
+<!--brands-->
+
+<div id="myNav" class="overlay">
+  <a href="#" class="closebtn" onclick="closeNav()"><div>×</div></a>
+  <div class="overlay-content" style=" font-family:calibri;">
+  <div class="brand-wrapper">
+<div style=" float:left;">
+<a class="topb" href="/brand/perfume/AMOUAGE">AMOUAGE</a>
+<a class="topb" href="/brand/perfume/Aigner">Aigner</a>
+<a class="topb" href="/brand/perfume/Angel+Schlesser">Angel Schlesser</a>
+<a class="topb" href="/brand/perfume/Alfred+Dunhill">Alfred Dunhill</a>
+<a class="topb" href="/brand/perfume/Antonio+Banderas">Antonio Banderas</a>
+<a class="topb" href="/brand/perfume/AZZARO">AZZARO</a>
+<a class="topb" href="/brand/perfume/Aramis">Aramis</a>
+<a class="topb" href="/brand/perfume/Baldessarini">Baldessarini</a>
+<a class="topb" href="/brand/perfume/Britney+Spears">Britney Spears</a>
+<a class="topb" href="/brand/perfume/Bentley">Bentley</a>
+<a class="topb" href="/brand/perfume/Bugatti">Bugatti</a>
+<a class="topb" href="/brand/perfume/BURBERRY">BURBERRY</a>
+<a class="topb" href="/brand/perfume/Bijan">Bijan</a>
+<a class="topb" href="/brand/perfume/BVLGARI">BVLGARI</a>
+</div>
+<div  style=" float:left; margin-left:4%">
+<a class="topb" href="/brand/perfume/Chloe">Chloe</a>
+<a class="topb" href="/brand/perfume/Calvin+Klein">Calvin Klein</a>
+<a class="topb" href="/brand/perfume/CAROLINA+HERRERA">CAROLINA HERRERA</a>
+<a class="topb" href="/brand/perfume/Caron">Caron</a>
+<a class="topb" href="/brand/perfume/Chopard">Chopard</a>
+<a class="topb" href="/brand/perfume/Clinique">Clinique</a>
+<a class="topb" href="/brand/perfume/CREED">CREED</a>
+<a class="topb" href="/brand/perfume/Cartier">Cartier</a>
+<a class="topb" href="/brand/perfume/CHANEL">CHANEL</a>
+<a class="topb" href="/brand/perfume/DKNY">DKNY</a>
+<a class="topb" href="/brand/perfume/Diesel">Diesel</a>
+<a class="topb" href="/brand/perfume/DOLCE+%26+GABBANA">DOLCE &amp; GABBANA</a>
+<a class="topb" href="/brand/perfume/DAVIDOFF">DAVIDOFF</a>
+<a class="topb" href="/brand/perfume/Dior">Dior</a>
+</div>
+<div style=" float:left; margin-left:4%">
+<a class="topb" href="/brand/perfume/DSQUARED%C2%B2">DSQUARED²</a>
+<a class="topb" href="/brand/perfume/Emanuel+Ungaro">Emanuel Ungaro</a>
+<a class="topb" href="/brand/perfume/Elizabeth+Arden">Elizabeth Arden</a>
+<a class="topb" href="/brand/perfume/Escada">Escada</a>
+<a class="topb" href="/brand/perfume/Ferrari">Ferrari</a>
+<a class="topb" href="/brand/perfume/Franck+Olivier">Franck Olivier</a>
+<a class="topb" href="/brand/perfume/GIVENCHY">GIVENCHY</a>
+<a class="topb" href="/brand/perfume/GUCCI">GUCCI</a>
+<a class="topb" href="/brand/perfume/Guess">Guess</a>
+<a class="topb" href="/brand/perfume/GIORGIO+ARMANI">GIORGIO ARMANI</a>
+<a class="topb" href="/brand/perfume/Gianfranco+Ferre">Gianfranco Ferre</a>
+<a class="topb" href="/brand/perfume/GUERLAIN">GUERLAIN</a>
+<a class="topb" href="/brand/perfume/HERMES">HERMES</a>
+<a class="topb" href="/brand/perfume/Halston">Halston</a>
+</div>
+<div style=" float:left; margin-left:4%">
+<a class="topb" href="/brand/perfume/HUGO+BOSS">HUGO BOSS</a>
+<a class="topb" href="/brand/perfume/Issey+Miyake">Issey Miyake</a>
+<a class="topb" href="/brand/perfume/JESUS+DEL+POZO">JESUS DEL POZO</a>
+<a class="topb" href="/brand/perfume/John+Richmond">John Richmond</a>
+<a class="topb" href="/brand/perfume/John+Varvatos">John Varvatos</a>
+<a class="topb" href="/brand/perfume/Joop">Joop</a>
+<a class="topb" href="/brand/perfume/Jaguar">Jaguar</a>
+<a class="topb" href="/brand/perfume/Jean+Paul+Gauttier">Jean Paul Gauttier</a>
+<a class="topb" href="/brand/perfume/Jennifer+Lopez">Jennifer Lopez</a>
+<a class="topb" href="/brand/perfume/Juicy+Couture">Juicy Couture</a>
+<a class="topb" href="/brand/perfume/Jacques+Bogart">Jacques Bogart</a>
+<a class="topb" href="/brand/perfume/Kenneth+Cole">Kenneth Cole</a>
+<a class="topb" href="/brand/perfume/KARL+LAGERFELD">KARL LAGERFELD</a>
+<a class="topb" href="/brand/perfume/KENZO">KENZO</a>
+</div>
+<div style=" float:left; margin-left:4%">
+<a class="topb" href="/brand/perfume/La+Perla">La Perla</a>
+<a class="topb" href="/brand/perfume/LACOSTE">LACOSTE</a>
+<a class="topb" href="/brand/perfume/LANCOME">LANCOME</a>
+<a class="topb" href="/brand/perfume/Lanvin">Lanvin</a><a class="topb" href="/brand/perfume/LALIQUE">LALIQUE</a>
+<a class="topb" href="/brand/perfume/Loewe">Loewe</a>
+<a class="topb" href="/brand/perfume/Mercedes+Benz">Mercedes Benz</a>
+<a class="topb" href="/brand/perfume/MARC+JACOBS">MARC JACOBS</a>
+<a class="topb" href="/brand/perfume/Marc+Joseph">Marc Joseph</a>
+<a class="topb" href="/brand/perfume/MONT+BLANC">MONT BLANC</a>
+<a class="topb" href="/brand/perfume/Narciso+Rodriguez">Narciso Rodriguez</a>
+<a class="topb" href="/brand/perfume/NINA+RICCI">NINA RICCI</a>
+<a class="topb" href="/brand/perfume/PARFUMS+de+MARLY">PARFUMS de MARLY</a>
+<a class="topb" href="/brand/perfume/paco+rabanne">paco rabanne</a>
+</div>
+<div style=" float:left; margin-left:4%">
+<a class="topb" href="/brand/perfume/Porsche+Design">Porsche Design</a>
+<a class="topb" href="/brand/perfume/Rihanna">Rihanna</a>
+<a class="topb" href="/brand/perfume/RALPH+LAUREN">RALPH LAUREN</a>
+<a class="topb" href="/brand/perfume/Roberto+Cavalli">Roberto Cavalli</a>
+<a class="topb" href="/brand/perfume/Rio+Collection">Rio Collection</a>
+<a class="topb" href="/brand/perfume/S.T.Dupont">S.T.Dupont</a>
+<a class="topb" href="/brand/perfume/Shiseido">Shiseido</a>
+<a class="topb" href="/brand/perfume/Salvatore+Ferragamo">Salvatore Ferragamo</a>
+<a class="topb" href="/brand/perfume/Thierry+Mugler">Thierry Mugler</a>
+<a class="topb" href="/brand/perfume/Trussardi">Trussardi</a>
+<a class="topb" href="/brand/perfume/TOM+FORD">TOM FORD</a>
+<a class="topb" href="/brand/perfume/Viktor%26Rolf">Viktor&amp;Rolf</a>
+<a class="topb" href="/brand/perfume/Valentino">Valentino</a>
+<a class="topb" href="/brand/perfume/Victoria+Secret">Victoria Secret</a>
+</div> 
+<div style=" float:left; margin-left:4%">      
+<a class="topb" href="/brand/perfume/Van+Cleef+%26+Arpels">Van Cleef &amp; Arpels</a>
+<a class="topb" href="/brand/perfume/VERSACE">VERSACE</a>                     
+<a class="topb" href="/brand/perfume/YVES+SAINT+LAURENT">YVES SAINT LAURENT</a>
+<a class="topb" href="/brand/perfume/Zirh">Zirh</a>           
+ <a class="" href="/brands?category=perfume"><strong>همه برندها</strong></a>
+ </div>
+</div>
+  </div>
+</div>
+<script>
+function closeNav() {
+	if(document.getElementById("myNav").style.height == "100%")
+	{
+    document.getElementById("myNav").style.height = "0%";
+    document.getElementById("hh").classList.toggle("change");
+	a=0;b=0;
+	}
+}
+window.onscroll = function() {sc()};
+
+function sc() {
+    if ((document.body.scrollTop > 10 || document.documentElement.scrollTop > 10)&&(b==1)) {
+        document.getElementById("myNav").style.height = "0%";
+    document.getElementById("hh").classList.toggle("change");
+	a=0;b=0;
+    }
+}
+</script>
+<!----------------->
+<div style="height:50px; border-bottom:#36F solid; border-width:2px; padding-right:5%; padding-top:.px;" class="koli">
+<div style="float:right; color:#FFF; font-size:30px; margin-top:3px;" class=" fontMany">نام فروشگاه</div>
+<div id="hh" onclick="myFunction(this)" class="btn-group" style="float:right; color:#FFF; margin-top:8px; margin-right:4%; width:7%"><span style="font-size:19px;cursor:pointer; float:right;">برندها</span>
+    <div class="bar" style=" float:right; margin-top:4px; margin-right:6%">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+</div>
+</div>
+<script>
+	var a=0,b=0;
+function myFunction(x) {
+	if(a==0){
+    x.classList.toggle("change");
+    document.getElementById("myNav").style.height = "100%";
+	a=1;b=1;
+	}
+	else
+	{
+    x.classList.toggle("change");
+    document.getElementById("myNav").style.height = "0%";
+	a=0;b=0;
+	}
+}
+</script>
+<a href="#"><div style="float:left ;margin-left:2%; color:#FFF;" class="pp m" data-toggle="modal" data-target="#Sbt">ثبت نام
+<img src="pic/1463006237_key.png" style=" height:25px; "></div></a>
+<a href="##">
+<div style="float:left ;margin-left:2%; color:#FFF; " class="pp m" data-toggle="modal" data-target="#Modal">
+<p id="fs" style=" display:none; float:right; margin-top:4% ">سبد خرید</p><p id="demo" style=" border-radius:100%; float:right; margin-top:4% ; padding-left:5px; padding-right:6px">سبد خرید ( 0 )</p>
+        <img src="pic/1463006692_shopping-basket.png" style=" height:25px;">
+</div>
+</a>
+<script>
+    var num = 0;
+function sabad() {
+num++;
+if(num>0)
+{
+    document.getElementById("k").style.display = "block";
+    document.getElementById("kk").innerHTML = "خرید انتخابتان";
+}
+    var n = num.toString();
+    document.getElementById("demo").innerHTML = n;
+    document.getElementById("fs").style.display = "block";
+    document.getElementById("demo").style.backgroundColor = "#F00";
+}
+</script>
+<a href="#" id="myBtn"><div style="float:left ;margin-left:2%; color:#FFF;" class="pp m">ورود
+<img src="pic/1463007146_face_human_blank_user_avatar_mannequin_dummy.png" style=" height:25px; "></div></a>
+<a href="#" id="ff"><div style="float:left ;margin-left:2%; color:#FFF;" class="pp m">تماس
+<img src="pic/1463060919_phone.png" style=" height:25px; "></div></a>
+<a href="#"><div style="float:left ;margin-left:2%; padding-top:10px; color:#FFF;" id="flip" class="pp m" onclick="closeNav()">جستجو
+<img src="pic/1463091227_magnifyingglass.png" style=" height:25px; "></div></a>
+</div>
+<div id="panel" style="">
+<a href="#"><div style="float:right; font-size:30px; color:#FFF" id="flp"><span class="glyphicon glyphicon-remove"></span></div></a>
+<form  >
+  <b><input style=" font-size:19px; height:40px; padding:0%; padding-right:2%" class="input-search" type="text" name="search" placeholder="جستجو کنید . . ."></b>
+    <button type="submit" class="btn btn-default"  style="width:4%; margin-bottom:3px"><img src="pic/1463100460_Search.png" style="width:100%; margin-bottom:1px"></button>
+</form>
+</div>
+<div style=" height:205px;">
+
+  <div onscroll="scrol()" style=" width:100%; float:right; "  class="">
+          <img src="pic/TresorMidnightRose.jpg" style="width:100%; height:205px;opacity:0.55">
+     </div>
+</div>
+<div class="koli" style=" height:39px;">
+  <a href="asli.html">
+  <div style="float:right;width:23%; margin-right:4%; margin-top:1px; margin-bottom:1px; padding-top:1px; padding-bottom:4px" class="c linkcolor">صفحه اصلی
+  </div></a>
+  <div  style="float:right;width:23%; margin-top:1px; margin-bottom:1px;padding-bottom:4px" class="c">درباره ما</div>
+  <div  style="float:right;width:23%; margin-top:1px; margin-bottom:1px;padding-bottom:4px" class="c">ارتباط با ما</div>
+  <div  style="float:right;width:23%; margin-left:2%; margin-top:1px; margin-bottom:1px;padding-bottom:4px" class="c">بیشتر</div>
+</div>
+<div style="height:5px; background-color:#AF78A6; opacity:0.4"></div>
+<div style=" border-bottom:#36F solid 2px;"></div>
+<div style=" height:600px">
+<div style="float:right;margin-top:40px; margin-right:5%; width:35%;"><img src="pic/AIG32M.jpg" style=" width:100%; height:500px"></div>
+<div class="namepic" style=" margin-left:5%; border-width:1px; margin-top:40px; color:#FFF; margin-right:5%; width:50%; float:right; font-size:38px;">Etienne Aigner Pour Homme</div>
+<div style="float:right; margin-right:5%;; color:#FFF; font-size:20px;" class=" font-brd">عطر اگنر </div>
+<div style=" margin-right:5%; float:right; color:#09F" class=" font-brd">مردانه</div>
+<div style=" float:right;width:50%; height:1px; background-color:#FFF; margin-right:3%; margin-top:5px; margin-bottom:15px"></div>
+<div style=" float:right;  color:#FFF; width:20%">
+<div style="float:right; margin-right:20%; " class=" font-brd font-col">وضعیت :</div>
+<div style=" padding-right:1%; padding-left:1%; border-radius:5px; background-color:#FFF;float:right; margin-right:5%; color:#000;  " class=" font-brd">موجود</div>
+<div style="float: right; margin-right:20%;  margin-top:10px;" class=" font-brd"><h class="font-col">قیمت :</h>	 94,000 تومان</div>
+</div><a href="##" onclick="sabad()">
+<p><button  id="Ps7" style=" width:15%; border:#FFF 1px solid; border-radius:4px;float: left; margin-left:10%; margin-top:20px; font-family:b yekan;; font-size:16px" class="w3-btn w3-hover-purple">اضافه به سبد خرید<img src="pic/1463006692_shopping-basket.png" style="height:25px; margin-right:8%"></button></p></a>
+<div style=" float:right;width:50%; height:1px; background-color:#FFF; margin-right:3%; margin-top:15px; margin-bottom:15px"></div>
+<div style=" float:right;  margin-right:5%; color:#FFF; width:55%;">
+<div style=" width:30%; float: right; color:#FFF; " class=" font-brd"><h class="font-col">حجم :</h> 50 میلی لیتر</div>
+<div style=" width:30%; float: right; color:#FFF; " class=" font-brd"><h class="font-col">کمپانی سازنده : </h>Aigner</div>
+<div style=" width:30%; float: right; color:#FFF; " class=" font-brd"><h class="font-col">سال ساخت : </h>2000</div>
+<div style=" width:30%;float: right; color:#FFF; margin-top:15px;" class=" font-brd"><h class="font-col">نوع  رایحه : </h>  تلخ ، ترش</div>
+<div style=" width:30%;float: right;color:#FFF; margin-top:15px;" class=" font-brd"><h class="font-col">مقدار ماندگاری : </h>4-8 ساعت</div>
+<div style=" width:30%;float: right;color:#FFF; margin-top:15px;" class=" font-brd"><h class="font-col">میزان پراکندگی : </h> خوب</div> 
+</div>
+<div style=" float:right;width:50%; height:1px; background-color:#FFF; margin-right:3%; margin-top:15px; margin-bottom:15px"></div>
+<div style=" font-size:17px;float:right; width:50%; text-align:justify; margin-right:3%; padding:5px;"><p class="font-col">نت های بویایی ادکلن مردانه Etienne Aigner Pour Homme عبارتند از:</p>
+<p><h class="font-col">رايحه اوليه : </h> گریپ فروت ژاپنی </p>
+<p><h class="font-col">رايحه ميانی : </h> جوز، فلفل و هل</p>
+<p><h class="font-col">رايحه پایه : </h> چرم، چوب صندل، مشک و سدر</div></p>
+<div style=" font-size:17px;float:right; width:90%; text-align:justify; margin-right:5%; margin-top:35px; padding:5px;"><p class="font-col">توضیحات:</p>
+<h class="font-col">ادکلن مردانه اگنر ( Etienne Aigner Pour Homme for men )</h> 
+با رایحه ای سرخسی در سال  2000 معرفی شد که با توجه به ماندگاری نسبتا بالای آن مورد توجه بسیاری از آقایان سخت پسند قرار گرفت.</div>
+<div style=" margin-left:5%; float:right;width:90%; height:1px; background-color:#FFF; margin-right:5%; margin-top:15px; margin-bottom:15px"></div>
+<div style="float:right; margin-right:7%; width:45%; font-size:22px; height:60px">نظرتان درباره این محصول چیست؟</div>
+<div style=" margin-left:5%; font-size:34px; float:right; width:40%; height:60px"><p style="float:right; font-size:20px; margin-left:3%">امتیاز شما به این محصول چند ستاره است؟</p>
+<a href="##"><div class="str" id="s1">&#9733;</div></a>
+<a href="##"><div class="str" id="s2">&#9733;</div></a>
+<a href="##"><div class="str" id="s3">&#9733;</div></a>
+<a href="##"><div class="str" id="s4">&#9733;</div></a>
+<a href="##"><div class="str" id="s5">&#9733;</div></a>
+<div id="str" style=" float:right; width:7%; text-align:left">0</div>
+</div>
+<script>
+var s1=0,s2=0,s3=0,s4=0,s5=0;
+$(document).ready(function(){
+	$("#s1").click(function(){
+        $(this).css("color", "yellow");
+        $("#s2").css("color", "#999");
+        $("#s3").css("color", "#999");
+        $("#s4").css("color", "#999");
+        $("#s5").css("color", "#999");
+		s1=1;
+		s2=0,s3=0,s4=0,s5=0;
+    document.getElementById("str").innerHTML = 1;
+		});
+	$("#s2").click(function(){
+        $(this).css("color", "yellow");
+        $("#s1").css("color", "yellow");
+        $("#s3").css("color", "#999");
+        $("#s4").css("color", "#999");
+        $("#s5").css("color", "#999");
+		s1=1;
+		s2=1;
+		s3=0,s4=0,s5=0;
+    document.getElementById("str").innerHTML = 2;
+		});
+	$("#s3").click(function(){
+        $(this).css("color", "yellow");
+        $("#s2").css("color", "yellow");
+        $("#s1").css("color", "yellow");
+        $("#s4").css("color", "#999");
+        $("#s5").css("color", "#999");
+		s1=1;
+		s2=1;
+		s3=1;
+		s4=0,s5=0;
+    document.getElementById("str").innerHTML = 3;
+		});
+	$("#s4").click(function(){
+        $(this).css("color", "yellow");
+        $("#s3").css("color", "yellow");
+        $("#s2").css("color", "yellow");
+        $("#s1").css("color", "yellow");
+        $("#s5").css("color", "#999");
+		s1=1;
+		s2=1;
+		s3=1;
+		s4=1;
+		s5=0;
+    document.getElementById("str").innerHTML = 4;
+		});
+	$("#s5").click(function(){
+        $(this).css("color", "yellow");
+        $("#s4").css("color", "yellow");
+        $("#s3").css("color", "yellow");
+        $("#s2").css("color", "yellow");
+        $("#s1").css("color", "yellow");
+		s1=1;
+		s2=1;
+		s3=1;
+		s4=1;
+		s5=1;
+    document.getElementById("str").innerHTML = 5;
+		});
+	});
+	
+	
+$(document).ready(function(){
+    $("#s1").hover(function(){
+        $(this).css("color", "yellow");
+	},
+	function(){
+	if(s1==0){
+        $("#s1").css("color", " #999");
+	}
+	
+	});
+    $("#s2").hover(function(){
+        $(this).css("color", "yellow");
+        $("#s1").css("color", " yellow");
+        }, function(){
+	if(s1==0){
+        $("#s1").css("color", " #999");
+	}
+	if(s2==0){
+        $("#s2").css("color", " #999");
+	}
+    });
+    $("#s3").hover(function(){
+        $(this).css("color", "yellow");
+        $("#s2").css("color", " yellow");
+        $("#s1").css("color", " yellow");
+        }, function(){
+	if(s3==0){
+        $("#s3").css("color", " #999");
+	}
+	if(s1==0){
+        $("#s1").css("color", " #999");
+	}
+	if(s2==0){
+        $("#s2").css("color", " #999");
+	}
+    });
+    $("#s4").hover(function(){
+        $(this).css("color", "yellow");
+        $("#s3").css("color", " yellow");
+        $("#s2").css("color", " yellow");
+        $("#s1").css("color", " yellow");
+        }, function(){
+	if(s1==0){
+        $("#s1").css("color", " #999");
+	}
+	if(s2==0){
+        $("#s2").css("color", " #999");
+	}
+	if(s3==0){
+        $("#s3").css("color", " #999");
+	}
+	if(s4==0){
+        $("#s4").css("color", " #999");
+	}
+    });
+    $("#s5").hover(function(){
+        $(this).css("color", "yellow");
+        $("#s4").css("color", " yellow");
+        $("#s3").css("color", " yellow");
+        $("#s2").css("color", " yellow");
+        $("#s1").css("color", " yellow");
+        }, function(){
+	if(s1==0){
+        $("#s1").css("color", " #999");
+	}
+	if(s2==0){
+        $("#s2").css("color", " #999");
+	}
+	if(s3==0){
+        $("#s3").css("color", " #999");
+	}
+	if(s4==0){
+        $("#s4").css("color", " #999");
+	}
+	if(s5==0){
+        $("#s5").css("color", " #999");
+	}
+    });
+});
+</script>
+<style>
+.str{
+	color:#999;
+	float:right;
+}
+</style>
+<div style="float:right; margin-right:12%">نام : </div>
+<input style="background:none; width:15%; float:right; margin-right:1%; color:#FFF" type="text" id="comments-name" class="form-control" name="Comments[name]">
+<div style="float:right; margin-right:2%">ایمیل :  </div>
+<input style="background:none; width:15%; float:right; margin-right:1%; color:#FFF" type="text" id="comments-email" class="form-control" name="Comments[email]">
+<form style="float:right; border-radius:5px; margin-right:5%; width:30%" action="demo_form.asp">
+<textarea  style="background:none; border-radius:5px" rows="4" cols="50" name="comment" >
+</textarea>
+  <input  style=" font-size:17px; width:20%; background-color:#000" type="submit" name="submit" value="ثبت نظر"> 
+</form>
+
+<div style=" float:right;width:90%; height:1px; background-color:#FFF; margin-right:5%; margin-top:15px; margin-bottom:15px"></div>
+<div style=" float:right; width:100%; border-top:5px #111 solid;background-size:cover; background-image:url(pic/agnir0.gif)" class="koli">
+<table style="width:90%; margin-right:5%; margin-top:25px; margin-bottom:50px; text-align:justify">
+<tr >
+<td style=" padding-right:2%">راه های ارتباطی : </td>
+<td style=" text-align:center">خواندنی ها</td>
+<td style=" padding-right:2%">توضیحات : </td>
+</tr>
+
+<tr style=" height:100px; font-size:16px">
+<td style="width:30%; border-left:#FFF solid 1px; padding-right:5%"> <span style="margin-left:4%" class="glyphicon glyphicon-map-marker"></span>آدرس : مهاباد - پاساژ مدیا<p style="margin-top:8px;">
+<span style="margin-left:4%" class="glyphicon glyphicon-earphone"></span>تلفن : 09149588621</p>
+<span style="margin-left:4%" class="glyphicon glyphicon-envelope"></span>ایمیل : sala@baybay.gmail.com</td>
+<td style=" text-align:center; border-left:#FFF solid 1px;" >
+<a href="obj-atr.html"><img style="width:10%" data-toggle="tooltip" data-placement="right" title="عطر" src="pic/Blotter_strips.jpg"></a>
+<img style="width:11%; margin-right:2%" data-toggle="tooltip" data-placement="bottom" title="عطر درمانی" src="pic/phm5.jpg">
+<img style="width:12%; margin-right:2%" data-toggle="tooltip" data-placement="left" title="همه چیر درباره عطر" src="pic/scent-of-a-woman-325199-2.jpg"></td>
+<td style="width:30%; padding-right:5%"><p style="margin-bottom:8px"><span style="margin-left:4%" class="glyphicon glyphicon-pencil"></span>شرایط و قوانین سایت</p>
+<p><span style="margin-left:4%" class="glyphicon glyphicon-pencil"></span>راهنمای خرید از سایت</p></td>
+</tr>
+<tr>
+<td style=" border-left:#FFF solid 1px; padding-right:10%" ><img src="pic/logo.png"></td>
+
+<td style=" border-left:#FFF solid 1px;"></td>
+</tr>
+</table>
+<div style="background-color:#111; height:30px">
+<div style="float:right; margin-right:10%">کليه حقوق اين سايت متعلق به فروشگاه می‌باشد .</div>
+<div style="float:left; margin-left:5%; font-size:12px; font-family:tahoma; margin-top:7px">Copyright ©  2016 Forushgah.com</div>
+</div>
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});
+</script>
+</div>
+</body>
+</html>
